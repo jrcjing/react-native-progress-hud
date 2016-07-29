@@ -27,7 +27,6 @@ var styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width: 50,
-    height: 50,
     borderRadius: 50 / 2
   },
   inner_spinner: {
@@ -35,7 +34,18 @@ var styles = StyleSheet.create({
     height: 42,
     borderRadius: 42 / 2,
     backgroundColor: '#FFFFFF'
-  }
+  },
+  status: {
+	fontSize: 14,
+	color: '#333333',
+	marginBottom:10,
+  },
+  hud_stauts_image: {
+	marginTop:10,
+	width:28,
+	height:28,
+	marginBottom:10,
+  },	
 });
 
 module.exports = styles;
